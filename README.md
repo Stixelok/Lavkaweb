@@ -65,7 +65,7 @@
 ### Step 1 — Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/lavkaweb.git
+git clone https://github.com/Stixelok/lavkaweb.git
 ```
 
 Or download the ZIP and extract it into your Laragon `www` folder:
