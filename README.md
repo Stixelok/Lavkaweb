@@ -163,7 +163,6 @@ lavkaweb/
 
 ## ⚠️ Known Limitations
 
-- Passwords are stored without hashing (this was a learning project — not recommended for production).
 - No `.env` file or config abstraction — DB credentials are set directly in the connection file.
 - Email confirmation requires a configured local mail server (e.g. Laragon's built-in fake SMTP or Mailtrap).
 
@@ -171,14 +170,11 @@ lavkaweb/
 
 ## 👨‍💻 Author
 
-**Mikhail Savkin** — first-year student at МГТУ im. Bauman, Innovative Entrepreneurship.  
-Built this as a solo project to learn web development end-to-end.
+**Mikhail Savkin** — first-year student at BMSTU, Innovative Entrepreneurship.  
 
-- GitHub: [@YOUR_USERNAME](https://github.com/YOUR_USERNAME)
-- Telegram: [@YOUR_TG](https://t.me/YOUR_TG)
+- GitHub: [@Stixelok](https://github.com/Stixelok)
+- Telegram: [@kotik_v_lapkah](https://t.me/kotik_v_lapkah))
 
 ---
-
 ## 📄 License
-
-This project is for portfolio and educational purposes.
+- MIT
