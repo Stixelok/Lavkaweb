@@ -156,7 +156,8 @@ If you don't want to configure a mail server, you can also activate your account
 | Main Screen | Profile Page | Privacy Settings |
 |---|---|---|
 | ![Main](screenshots/main.png) | ![Profile](screenshots/profile.png) | ![Privacy](screenshots/privacy.png) |
-
+|---|---|---|
+| ![Post](screenshots/post.png) | ![Comment](screenshots/comment.png) | ![Calculator](screenshots/calculator.png) |
 ---
 
 ## 🗄️ Database Schema Overview
