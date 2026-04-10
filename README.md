@@ -157,7 +157,6 @@ If you don't want to configure a mail server, you can also activate your account
 |---|---|---|
 | ![Main](screenshots/main.png) | ![Profile](screenshots/profile.png) | ![Privacy](screenshots/privacy.png) |
 | Post screen | Comments | Marks calculator |
-|---|---|---|
 | ![Post](screenshots/post.png) | ![Comment](screenshots/comment.png) | ![Calculator](screenshots/calculator.png) |
 ---
 
