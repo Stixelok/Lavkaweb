@@ -1,0 +1,84 @@
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    display: inline-block;
+}
+ul {
+    position: relative;
+}
+h1 { 
+    margin-bottom: 30px;
+    text-align: center;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+a:visited {
+    color: black;
+}
+a:active {
+    color: black;
+}
+p {
+    margin: 0;
+}
+hr {
+    margin: 9px;
+    opacity: 0.15;
+}
+.main-text {
+    text-align: center;   
+}
+.logo {
+    margin-bottom: 22px;
+    text-align: center;
+}
+.logo-image {
+    box-shadow: 2px 0px 20px rgba(0, 0, 0, 0.167);
+    border-radius: 55px 55px 55px 55px;
+}
+.new-logo {
+    margin-top: 5px;
+    margin-bottom: 12px;
+}
+.settings-text {
+    margin-left: 5px;
+    margin-bottom: 2px;
+}
+.settings-tab {
+    font-size: 1.4em;
+    margin-left: 12px;
+}
+.settings-icon {
+    font-size: 24px;
+}
+.btn-success {
+    position: absolute;
+    top: 24px;
+    right: 12px;
+    width: 40px;
+    height: 40px;
+    border: 0;
+    background-color: white;
+    padding: 0;
+    color: black;
+    font-size: 1.3em;
+    background-color: rgb(254, 202, 0);
+    border-color: rgb(254, 202, 0);
+}
+.button-container {
+    text-align: center;
+}
+ion-icon {
+    font-size: 40px;
+    color: black;
+}
+.stickers-container { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

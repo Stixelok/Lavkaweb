@@ -1,0 +1,65 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+p, a, h1 {
+    margin: 0;
+}
+a {
+    color: black;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+}
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+li {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    display: inline-block;
+}
+ion-icon {
+    left: 20px;
+    top: 30px;
+    font-size: 40px;
+    color: black;
+    position: absolute;
+}
+.title {
+    font-size: 2em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.tab {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.community-container {
+    max-width: 570px;
+    position: relative;
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 5px;
+}
+.community-image {
+    border-radius: 30px 30px 30px 30px;
+    box-shadow: 2px 0px 20px rgba(0, 0, 0, 0.307);
+}
+.community-text {
+    position: absolute;
+    bottom: 10px;
+    left: 15px;
+    font-size: 2.3em;
+    color: white;
+    text-shadow: 0px 0px 15px rgba(0, 0, 0, 0.919);
+}

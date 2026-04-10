@@ -1,0 +1,327 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+a, p {
+    margin: 0;
+}
+h1 {
+    margin: 0;
+}
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 2em;
+}
+a {
+    color: black;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+}
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+li {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    display: inline-block;
+}
+hr {
+    padding: 0;
+    margin: 5px 0px 5px 0px;
+}
+.return {
+    left: 20px;
+    top: 30px;
+    font-size: 40px;
+    color: black;
+    position: absolute;
+}
+.title {
+    font-size: 0.9em;
+    margin-top: 33px;
+    margin-bottom: 10px;
+}
+.panel-icon {
+    position: absolute;
+    right: 20px;
+    top: 36px;
+    font-size: 33px;
+    color: black;
+}
+.main-panel {
+    height: 100vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.panel {
+    color: black;
+	position: absolute;
+    text-align: center;
+    overflow: hidden;
+	width: 80vw;
+    height: 100vh;
+	left: 120%;
+    background-color: white;
+	box-sizing: border-box;
+    z-index: 2;
+    transition: all .45s ease-in-out;
+}
+.panel-initial {
+    left: 120%;
+}
+.panel-final{
+    left: 20%;
+}
+.panel-title {
+    margin-top: 14px;
+    margin-bottom: 11px;
+}
+.panel-button {
+    position: absolute;
+    top: 0px;
+    right: 10px;
+}
+.create-button {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    padding: 0;
+    border: none;
+    background-color: white;
+}
+.button-icon {
+    font-size: 39px;
+}
+.button-load {
+    background-color: white;
+    border: none;
+}
+.panel-load {
+    position: relative;
+    border: 1px solid rgba(0, 0, 0, 0.01);
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.28);
+    margin: 8px 16px 8px 16px;
+    border-radius: 18px;
+    overflow: hidden;
+    transition: all .05s ease-in-out;
+    cursor: pointer;
+    outline: 0;
+    -webkit-tap-highlight-color: transparent;
+    text-align: left;
+}
+span.ripple {
+    position: absolute; /* The absolute position we mentioned earlier */
+    border-radius: 50%;
+    transform: scale(0);
+    z-index: 1;
+    animation: ripple 775ms linear;
+    background-color: rgba(216, 216, 216, 0.7);
+}
+@keyframes ripple {
+    to {
+      transform: scale(4);
+      opacity: 0;
+    }
+  }
+.load-name {
+    position: relative;
+    z-index: 2;
+    font-size: 26px;
+    margin-top: 12px;
+    margin-left: 14px;
+}
+.load-page {
+    width: 80vw;
+    position: relative;
+    z-index: 1;
+    transition: all .45s ease-in-out;
+}
+.load-score {
+    position: relative;
+    z-index: 2;
+    font-size: 20px;
+    opacity: 0.95;
+    margin-top: 4px;
+    margin-left: 14px;
+    margin-bottom: 12px;
+}
+.save-page {
+    position: fixed;
+	width: 80vw;
+    height: 100vh;
+	left: 120%;
+    display: none;
+    transition: all .45s ease-in-out;
+}
+.load-initial {
+    right: 0%;
+}
+.load-final {
+    right: 100%;
+}
+.save-initial {
+    left: 120%;
+}
+.save-final{
+    left: 20%;
+}
+.overlay {
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+	top: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, .3);
+	display: none;
+    z-index: 2;
+    box-shadow: 3px 3px 10px 2px rgba(44, 44, 44, 0.16);
+}
+.return-button {
+    border: none;
+    background-color: white;
+    position: absolute;
+    top: 12px;
+    left: 12px;
+}
+.name-form {
+    font-size: 20px;
+    border-radius: 6px;
+    border: 0.2px solid black;
+    height: 32px;
+    width: 80%;
+}
+.button {
+    font-size: 0.9em;
+    border: 1px solid rgb(239, 239, 239);
+    background-color: rgb(239, 239, 239);
+    margin-left: 0;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px 10px 10px 10px;
+    padding: 10px;
+    padding-left: 17px;
+    padding-right: 17px;
+    transition: all 0.1s;
+    float: left;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.button:hover {
+    box-shadow: 3px 3px 10px 2px rgba(44, 44, 44, 0.16);
+}
+.button:active {
+    border: 1px solid rgba(44, 44, 44, 0.16);
+}
+.info-list {
+    list-style: none; 
+    display: inline-block;
+}
+.marks-list {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    list-style: none; 
+}
+.mark {
+    font-size: 1em;
+    border: 2px solid rgb(239, 239, 239);
+    background-color: rgb(239, 239, 239);
+    margin-left: 0;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px 10px 10px 10px;
+    padding: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: all 0.1s;
+    float: left;
+    margin-right: 16px;
+    margin-left: 16px;
+}
+.mark:hover {
+    box-shadow: 3px 3px 10px 2px rgba(44, 44, 44, 0.16);
+}
+.mark:active {
+    border: 2px solid rgba(44, 44, 44, 0.16);
+}
+/* Переключатель - коробка вокруг ползунка */
+.switch {
+    position: relative;
+    width: 200px;
+    height: 112px;
+    float: left;
+    margin-top: 15px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+  
+/* Скрыть флажок HTML по умолчанию */
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+  
+/* Ползунок */
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .1s;
+    transition: .2s;
+}
+  
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 86px;
+    width: 86px;
+    left: 13.2px;
+    bottom: 13.2px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+  
+input:checked + .slider {
+    background-color: #2196F3;
+}
+  
+input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+  
+input:checked + .slider:before {
+    -webkit-transform: translateX(86px);
+    -ms-transform: translateX(86px);
+    transform: translateX(86px);
+}
+  
+/* Закругленные ползунки */
+.slider.round {
+    border-radius: 64px;
+}
+  
+.slider.round:before {
+    border-radius: 50%;
+}
+.nikolotik-mode {
+    padding-top: 20px;
+    margin-right: 20px;
+    margin-left: 50px;
+    float: left;
+}

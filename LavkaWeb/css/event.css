@@ -1,0 +1,32 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+        font-family: 'Manrope', sans-serif;
+}
+p, a, h1 {
+    margin: 0;
+}
+h1 {
+    text-align: center;
+    font-size: 1.9em;
+    margin: 5%;
+}
+h2 {
+    text-align: center;
+    font-size: 1.5em;
+    margin: 6%;
+}
+ion-icon {
+    margin-left: 20px;
+    margin-top: 30px;
+    font-size: 40px;
+}
+.event-text {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-bottom: 2%;
+    margin-left: 4%;
+    margin-right: 2%;
+    font-size: 1.25em;
+}
