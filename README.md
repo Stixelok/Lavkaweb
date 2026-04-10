@@ -208,7 +208,7 @@ lavkaweb/
 **Mikhail Savkin** — first-year student at BMSTU, Innovative Entrepreneurship.  
 
 - GitHub: [@Stixelok](https://github.com/Stixelok)
-- Telegram: [@kotik_v_lapkah](https://t.me/kotik_v_lapkah))
+- Telegram: [@kotik_v_lapkah](https://t.me/kotik_v_lapkah)
 
 ---
 ## 📄 License
