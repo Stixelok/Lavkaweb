@@ -132,12 +132,9 @@ upload.php
 
 - /
 activation.php
-
+passwordresetmail.php
 
 ```
-
-3. Register a new account and confirm via email (or check your local mail catcher).
-4. Configure mail smtp server in files (like activation.php) or change activation parametr in SQL database on
 ---
 
 ### Step 5 — Launch the Project
@@ -150,6 +147,8 @@ http://localhost/
 ```
 
 3. Register a new account and confirm via email (or check your local mail catcher).
+
+Note: If you don't want to configure a mail server, you can also activate your account using the database. To do this, set the "activated" user parameter to 1.
 ---
 
 ## 📸 Screenshots
