@@ -153,11 +153,11 @@ If you don't want to configure a mail server, you can also activate your account
 
 ## 📸 Screenshots
 
-| Main Screen | Profile Page | Privacy Settings |
+| Main Screen | Profile Page | Settings |
 |---|---|---|
-| ![Main](screenshots/main.png) | ![Profile](screenshots/profile.png) | ![Privacy](screenshots/privacy.png) |
-| Post screen | Comments | Marks calculator |
-| ![Post](screenshots/post.png) | ![Comment](screenshots/comment.png) | ![Calculator](screenshots/calculator.png) |
+| ![Main](screenshots/main.png) | ![Profile](screenshots/profile.png) | ![Privacy](screenshots/settings.png) |
+| Post screen | Comments | Privacy Settings |
+| ![Post](screenshots/post.png) | ![Comment](screenshots/comment.png) | ![Calculator](screenshots/privacy.png) |
 ---
 
 ## 🗄️ Database Schema Overview
