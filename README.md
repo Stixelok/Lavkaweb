@@ -118,7 +118,7 @@ $password = "";      // default Laragon password (empty)
  $mail->Password = '[Account password or password for external applications]';
 ```
 2. Change these lines in the next files:
-
+```
 - php/settings/
 passwordchange.php
 
@@ -133,7 +133,7 @@ upload.php
 - /
 activation.php
 passwordresetmail.php
-
+```
 ---
 
 ### Step 5 — Launch the Project
