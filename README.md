@@ -73,7 +73,10 @@ Or download the ZIP and extract it into your Laragon `www` folder:
 ```
 C:\laragon\www\lavkaweb\
 ```
-
+Move all files from the LavkaWeb folder to the main folder (www).
+```
+C:\laragon\www\
+```
 ---
 
 ### Step 2 — Import the Database
@@ -104,17 +107,49 @@ $password = "";      // default Laragon password (empty)
 
 ---
 
-### Step 4 — Launch the Project
+### Step 4 — Сonfigure Smtp Mail Server
+
+⚠️ Unfortunately, there's no single configuration file with all SMTP server parameters. They need to be changed separately in files.
+1. Сhange the following lines.
+```
+ $mail->Host = '[Your mail provider server]';  						
+ $mail->SMTPAuth = true;  
+ $mail->Username = '[Your mail for social network]';
+ $mail->Password = '[Account password or password for external applications]';
+```
+2. Change these lines in the next files:
+```
+- php/settings/
+passwordchange.php
+
+- php/
+activation.php
+addcomment.php
+passwordreset.php
+passwordresetmail.php
+subscribe.php
+upload.php
+
+- /
+activation.php
+
+
+```
+
+3. Register a new account and confirm via email (or check your local mail catcher).
+4. Configure mail smtp server in files (like activation.php) or change activation parametr in SQL database on
+---
+
+### Step 5 — Launch the Project
 
 1. Start Laragon (click **Start All**).
 2. Open your browser and go to:
 
 ```
-http://localhost/lavkaweb/
+http://localhost/
 ```
 
 3. Register a new account and confirm via email (or check your local mail catcher).
-
 ---
 
 ## 📸 Screenshots
