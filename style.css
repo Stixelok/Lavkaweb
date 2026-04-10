@@ -1,0 +1,155 @@
+body {
+  background-color: #ffffff;
+  color: #000000;
+  font-family: Times New Roman, serif;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+
+#wrapper {
+  width: 780px;
+  margin: 0 auto;
+}
+
+/* шапка */
+#header {
+  background-color: #003399;
+  color: #ffffff;
+  padding: 14px 20px;
+  border-bottom: 3px solid #ffcc00;
+}
+
+#header h1 {
+  margin: 0;
+  font-size: 22px;
+  font-family: Arial, sans-serif;
+}
+
+#header p {
+  margin: 4px 0 0;
+  font-size: 12px;
+  color: #ccddff;
+}
+
+/* навигация */
+#nav {
+  background-color: #336699;
+  padding: 6px 20px;
+}
+
+#nav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  margin-right: 16px;
+  font-weight: bold;
+}
+
+#nav a:hover {
+  text-decoration: underline;
+  color: #ffff99;
+}
+
+#nav a.active {
+  color: #ffcc00;
+  text-decoration: underline;
+}
+
+/* контент */
+#content {
+  padding: 16px 20px;
+  min-height: 400px;
+}
+
+h1 {
+  font-size: 20px;
+  font-family: Arial, sans-serif;
+  color: #003399;
+  border-bottom: 2px solid #003399;
+  padding-bottom: 4px;
+  margin-top: 20px;
+}
+
+h2 {
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  color: #336699;
+  border-left: 4px solid #336699;
+  padding-left: 8px;
+  margin-top: 18px;
+}
+
+p {
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+ul, ol {
+  margin-left: 24px;
+  line-height: 1.7;
+}
+
+table.info {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 12px 0;
+  font-size: 13px;
+}
+
+table.info td, table.info th {
+  border: 1px solid #999999;
+  padding: 5px 10px;
+}
+
+table.info th {
+  background-color: #336699;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  text-align: left;
+}
+
+table.info tr:nth-child(even) {
+  background-color: #eef3ff;
+}
+
+/* заметка */
+.notice {
+  background-color: #fffde6;
+  border: 1px solid #cccc00;
+  padding: 8px 12px;
+  font-size: 13px;
+  margin-bottom: 14px;
+}
+
+/* карточки тем */
+.topic-box {
+  border: 1px solid #aaaaaa;
+  padding: 10px 14px;
+  margin-bottom: 12px;
+  background-color: #f5f8ff;
+}
+
+.topic-box h3 {
+  margin: 0 0 6px;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+  color: #003399;
+}
+
+.topic-box p {
+  margin: 0;
+  font-size: 13px;
+}
+
+/* футер */
+#footer {
+  background-color: #eeeeee;
+  border-top: 2px solid #999999;
+  padding: 8px 20px;
+  font-size: 12px;
+  color: #555555;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
